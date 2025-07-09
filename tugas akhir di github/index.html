@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Pink Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Pink Blog</h1>
+    <p>Berbagi cerita, inspirasi, dan kebahagiaan.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#resep-makanan">Resep Makanan</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>Selamat datang di blog pribadi saya. Di sini saya berbagi cerita, ide, dan pengalaman sehari-hari. Semoga Anda menikmati kunjungan Anda!</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Halo, nama saya Shafna. Saya seorang pelajar di SMK NURUL ISLAM yang penuh semangat dalam belajar dan terus mencari pengalaman baru untuk berkembang. Saya juga sangat menyukai musik, baik mendengarkan maupun memainkannya, sebagai cara mengekspresikan diri.</p>
+    </section>
+
+    <section id="blog">
+      <h2>Latest Posts</h2>
+      <ul>
+        <li><strong>Menemukan Kebahagiaan di Hal-Hal Kecil</strong> – Tawa bersama teman, atau sekadar mendengar lagu favorit adalah kebahagiaan sederhana.</li>
+        <li><strong>5 Artis Spotify Wrapped Favorit</strong> – Taylor Swift, Ariana Grande, Juicy Luicy, Bernadya, Justin Bieber.</li>
+        <li><strong>Mengapa Pagi Adalah Waktu Terbaik?</strong> – Karena suasananya yang tenang, udara segar, dan cahaya matahari yang menyehatkan.</li>
+      </ul>
+    </section>
+    <section id="resep-makanan" class="container">
+  <h2>Cari Resep Makanan 🍜</h2>
+  <input type="text" id="inputMakanan" placeholder="Masukkan nama makanan..." />
+  <button id="btnCari">Cari</button>
+
+  <div id="loadingBox" class="loading-box">
+    <div class="loading-content">
+      <div class="spinner"></div>
+      Mencari resep...
+    </div>
+  </div>
+
+  <div class="hasil" id="hasilResep"></div>
+</section>
+
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: syasaia@gmail.com</p>
+      <p>Instagram: @ferss_sa</p>
+      <p>Whatsapp: +621234567</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Pink Blog. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>
